@@ -73,4 +73,5 @@ public class VectorClock {
             else if(method == "unlock") { this.timeStampLock.writeLock().unlock(); }
         }
     }
+
 }
